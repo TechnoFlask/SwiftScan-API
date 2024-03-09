@@ -1,0 +1,1 @@
+{"evaluation": {"accuracy": 1.0, "loss": 1.2268897080502938e-05}, "class_names": ["Cyst", "Normal", "Stone", "Tumor"], "image_size": 256}

@@ -1,0 +1,1 @@
+{"evaluation": {"accuracy": 0.9743589758872986, "loss": 0.10132310539484024}, "class_names": ["benign", "malignant", "normal"], "image_size": 256}

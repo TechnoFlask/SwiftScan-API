@@ -1,0 +1,1 @@
+{"evaluation": {"accuracy": 0.9786477088928223, "loss": 0.10923227667808533}, "class_names": ["cataract", "diabetic_retinopathy", "glaucoma", "normal"], "image_size": 256}

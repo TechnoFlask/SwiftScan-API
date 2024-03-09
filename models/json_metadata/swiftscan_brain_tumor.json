@@ -1,0 +1,1 @@
+{"evaluation": {"accuracy": 0.796954333782196, "loss": 1.4171230792999268}, "class_names": ["glioma_tumor", "meningioma_tumor", "no_tumor", "pituitary_tumor"], "image_size": 256}
