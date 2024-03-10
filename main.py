@@ -1,7 +1,6 @@
 from typing import Annotated
 from cv2 import imdecode, IMREAD_COLOR, resize
 from fastapi import Body, FastAPI, UploadFile
-import uvicorn
 from load_models import load
 from io import BytesIO
 import numpy as np
@@ -29,7 +28,3 @@ async def predict_disease(id: Annotated[int, Body()], img_binary: UploadFile):
 
     pred = models[id]["model"].predict(img)
     return models[id]["classes"][np.argmax(pred, axis=1)[0]]
-
-
-# if __name__ == "__main__":
-#     uvicorn.run("main:app", host="127.0.0.1", reload=True)
